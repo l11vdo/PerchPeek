@@ -1,0 +1,25 @@
+.modalHeader { background-color: red; color: white }
+.modalFooter { display: flex; justify-content: center; align-items: center; }
+.close { color: #fff; opacity: 1; }
+.avatar-circle {
+  width: 32px;
+  height: 32px;
+  background-color: red;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  display: inline-block;
+}
+.initials {
+  position: relative;
+  top: 5px; /* 25% of parent */
+  font-size: 16px; /* 50% of parent */
+  line-height: 16px; /* 50% of parent */
+  color: #fff;
+  font-weight: bold;
+}
+.activityLine {
+  flex: 1 0 100%;
+  align-items: left
+}
